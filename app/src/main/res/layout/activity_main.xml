@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nezar_lulu.assignment_4.MainActivity"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <EditText
+        android:id="@+id/FROM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:hint="Enter your text here"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/TO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/FROM"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:text=""
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/AR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EN"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:text="TO EN" />
+
+    <Button
+        android:id="@+id/EN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="104dp"
+        android:text="TO AR" />
+
+
+</RelativeLayout>
+
